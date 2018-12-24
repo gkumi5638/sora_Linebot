@@ -1,5 +1,4 @@
 # ここの内容は、参考記事から内容を持ってきているので、後から内容を修正する
-:::ruby
 desc "This task is called by the Heroku scheduler add-on"
 task :update_feed => :environment do
     require 'line/bot'  # gem 'line-bot-api'
